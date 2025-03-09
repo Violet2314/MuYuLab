@@ -127,7 +127,6 @@ const scrollToTop = () => {
     align-items: flex-start;
     opacity: 0;
     max-height: 0;
-    overflow: hidden;
     transition: all 0.5s ease;
     margin-top: 50px;
     /* 图标的高度 */
@@ -136,8 +135,10 @@ const scrollToTop = () => {
 }
 
 .qr-code {
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    position: relative;
+    left: 50px;
+    bottom: 50px;
     margin: 8px 0;
     opacity: 0;
     transition: opacity 0.5s ease;
@@ -150,7 +151,7 @@ const scrollToTop = () => {
 
 .to-top-container:hover .to-service {
     width: 300px;
-    height: 200px;
+    height: 250px;
     /* 向下展开 */
 }
 
