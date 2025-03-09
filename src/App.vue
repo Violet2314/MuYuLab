@@ -17,7 +17,7 @@
                 </div>
                 <span class="button-text">客服QQ 周一至周五 11:00-19:00</span>
                 <div class="service-content">
-                    <img class="qr-code" src="../public/images/show_card/qrcode.png" alt="QR码">
+                    <img class="qr-code" src="../public/二维码.png" alt="QR码">
                 </div>
             </div>
         </div>
