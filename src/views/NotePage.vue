@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <h1>Note Page</h1>
+    <div class="note">
+        <h1>暂时没有呢</h1>
     </div>
 </template>
 
@@ -8,4 +8,8 @@
 
 </script>
 
-<style scoped></style>
+<style scoped>
+.note{
+    height: 100vh;
+}
+</style>
